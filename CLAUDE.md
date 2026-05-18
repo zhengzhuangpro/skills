@@ -20,4 +20,4 @@
 
 我说"更新"时，按顺序执行：
 1. git commit 和 push
-2. npx skills add zhengzhuang/skills --yes -g --all
+2. npx skills add zhengzhuangpro/skills --yes -g --all
