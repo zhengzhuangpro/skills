@@ -1,6 +1,6 @@
 # Skills
 
-我的 Claude Code Skills 集合。
+我的 Agent Skills 集合，适用于 Claude Code、OpenClaw 等 AI 助手。
 
 ## 怎么安装
 
@@ -20,7 +20,7 @@ npx skills add zhengzhuang/skills -g --yes --all
 
 | Skill 名称 | 说明 |
 | --- | --- |
-| (暂无) | |
+| dev-terminal-design-system | 开发者工具暗黑终端风格设计系统 |
 
 ## 怎么创建新 Skill
 
