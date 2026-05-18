@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-npx skills add zhengzhuang/skills --skill skill-name
+npx skills add zhengzhuangpro/skills --skill skill-name
 ```
 
 ## 使用
