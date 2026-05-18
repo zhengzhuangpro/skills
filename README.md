@@ -7,13 +7,13 @@
 单个 skill 安装：
 
 ```bash
-npx skills add zhengzhuang/skills --skill [skillname]
+npx skills add zhengzhuangpro/skills --skill [skillname]
 ```
 
 全部安装：
 
 ```bash
-npx skills add zhengzhuang/skills -g --yes --all
+npx skills add zhengzhuangpro/skills -g --yes --all
 ```
 
 ## Skills 列表

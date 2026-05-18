@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-npx skills add zhengzhuang/skills --skill dev-terminal-design-system
+npx skills add zhengzhuangpro/skills --skill dev-terminal-design-system
 ```
 
 ## 使用
