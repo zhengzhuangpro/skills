@@ -2,6 +2,12 @@
 
 我的 Agent Skills 集合，适用于 Claude Code、OpenClaw 等 AI 助手。
 
+## Skills 列表
+
+| Skill 名称 | 说明 |
+| --- | --- |
+| tool-site-design-system | 开发者工具产品的落地页 |
+
 ## 怎么安装
 
 从远程安装：
@@ -43,12 +49,6 @@ npx skills add 你的用户名/skills -g --yes --all
 git fetch upstream
 git merge upstream/master
 ```
-
-## Skills 列表
-
-| Skill 名称 | 说明 |
-| --- | --- |
-| tool-site-design-system | 开发者工具产品的落地页 |
 
 ## 怎么创建新 Skill
 
