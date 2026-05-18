@@ -1,22 +1,23 @@
 ---
-name: dev-terminal-design-system
-description: Use when building developer-facing websites, landing pages, or product sites with a dark terminal/hacker aesthetic. Provides a complete design system with ink color palette, CSS variables, utility classes, animations, and component patterns inspired by helmagent.dev.
+name: tool-site-design-system
+description: Use when building tool or product websites, landing pages with a terminal/hacker aesthetic. Provides a complete dual-theme design system with ink color palette, CSS variables, utility classes, animations, and component patterns inspired by helmagent.dev.
 ---
 
-# Developer Terminal Design System
+# Tool Site Design System
 
 ## Overview
 
-A dark-first, developer/terminal-aesthetic design system for Next.js + Tailwind CSS sites. Inspired by helmagent.dev. Features monospace typography, terminal window chrome, ink grayscale palette, blue accent color, grid backgrounds, and subtle pulse/wire animations.
+A dual-theme, developer/terminal-aesthetic design system for Next.js + Tailwind CSS sites. Inspired by helmagent.dev. Features monospace typography, terminal window chrome, ink grayscale palette, blue accent color, grid backgrounds, and subtle pulse/wire animations. Supports both light and dark modes via CSS custom properties.
 
-Core principle: **Every element is theme-aware via CSS custom properties. Dark mode is the default; light mode is a secondary variant.**
+Core principle: **Every element is theme-aware via CSS custom properties with `:root` / `.dark` dual definitions. Default theme is configurable via `defaultTheme` in ThemeProvider.**
 
 ## When to Use
 
 - Developer tools / CLI product landing pages
 - Technical product sites targeting engineers
 - Any site where "terminal aesthetic" or "hacker vibes" fits the brand
-- When the design brief mentions: dark theme, monospace, developer-focused, minimal, technical
+- When the design brief mentions: monospace, developer-focused, minimal, technical
+- Dual-theme sites (light + dark) with CSS custom properties
 
 ## Tech Stack
 
@@ -24,7 +25,7 @@ Core principle: **Every element is theme-aware via CSS custom properties. Dark m
 |-------|--------|-------|
 | Framework | Next.js (App Router) | `"use client"` for interactive components |
 | Styling | Tailwind CSS v4 | `@import "tailwindcss"` syntax |
-| Theme | next-themes | `ThemeProvider` with `defaultTheme="dark"` |
+| Theme | next-themes | `ThemeProvider` with `defaultTheme="light"` |
 | Fonts | Geist + Geist Mono | `--font-geist-sans` / `--font-geist-mono` |
 | Icons | Lucide React | Consistent icon set |
 | Buttons | @base-ui/react or shadcn/ui | `nativeButton={false}` when rendering as `<a>` |
@@ -261,7 +262,7 @@ Use native `<dialog>` + `showModal()` instead of React conditional rendering. Se
 ## Page Structure Template
 
 ```
-<html className="dark" defaultTheme="dark" enableSystem>
+<html defaultTheme="light">  <!-- configurable: "light" or "dark" -->
 <body>
   <Navbar />           <!-- sticky, backdrop-blur, hair border -->
   <main>
@@ -328,7 +329,7 @@ export const siteConfig = {
 
 1. Copy `globals.css` from supporting files — it contains all CSS variables, utilities, and animations
 2. Create `src/config/site.ts` using the config structure above
-3. Set up `layout.tsx` with Geist fonts + ThemeProvider (`defaultTheme="dark"`)
+3. Set up `layout.tsx` with Geist fonts + ThemeProvider (`defaultTheme="light"`)
 4. Build sections following the component patterns — each section = `border-b hair` + `max-w-7xl` container
 5. Use ink palette for all grays, blue accent for emphasis, `text-foreground` for all primary text
 

@@ -20,7 +20,7 @@ npx skills add zhengzhuangpro/skills -g --yes --all
 
 | Skill 名称 | 说明 |
 | --- | --- |
-| dev-terminal-design-system | 开发者工具暗黑终端风格设计系统 |
+| tool-site-design-system | 开发者工具产品的落地页 |
 
 ## 怎么创建新 Skill
 
