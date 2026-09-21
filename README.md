@@ -7,6 +7,7 @@
 | Skill 名称 | 说明 |
 | --- | --- |
 | tool-site-design-system | 开发者工具产品的落地页 |
+| distill-to-skill | 把别处写的内容提炼成仓库规范的 skill |
 
 ## 怎么安装
 
