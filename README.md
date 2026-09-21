@@ -8,6 +8,7 @@
 | --- | --- |
 | tool-site-design-system | 开发者工具产品的落地页 |
 | distill-to-skill | 把别处写的内容提炼成仓库规范的 skill |
+| news-to-x-post | 把外部新闻素材提炼成 X 发布稿 |
 
 ## 怎么安装
 
