@@ -16,6 +16,8 @@
 
 使用 Conventional Commit：`feat:`, `fix:`, `docs:`, `refactor:`
 
+提交信息中不要添加 `Co-Authored-By: Claude` 或其他 AI 署名尾注。
+
 ## 更新 Skill 时
 
 我说"更新"时，按顺序执行：
