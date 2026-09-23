@@ -9,7 +9,7 @@
 | tool-site-design-system | 开发者工具产品的落地页 |
 | distill-to-skill | 把别处写的内容提炼成独立自包含的 skill |
 | news-to-x-post | 把外部新闻素材提炼成 X 发布稿 |
-| pre-publish-factcheck | 发文前文章声明与项目代码对账 |
+| humanize-article | 文章去 AI 味，发文前与项目代码对账 |
 
 ## 怎么安装
 
