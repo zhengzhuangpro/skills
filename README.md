@@ -10,6 +10,7 @@
 | distill-to-skill | 把别处写的内容提炼成独立自包含的 skill |
 | news-to-x-post | 把外部新闻素材提炼成 X 发布稿 |
 | humanize-article | 文章去 AI 味，发文前与项目代码对账 |
+| git-commit-convention | Git 提交规范：7 类 type、冒号后空格、单人提交无 AI 署名 |
 
 ## 怎么安装
 
