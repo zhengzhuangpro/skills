@@ -3,6 +3,7 @@
 Git 提交规范（Conventional Commit 精简版）：
 
 - 单人提交——不添加 `Co-Authored-By: Claude` 等任何 AI 共创署名
+- 禁止主动提交——用户明确要求提交，才执行 `git commit` / `git push`
 - 格式 `<type>: <subject>`，冒号后必须有空格
 - type 只允许 7 个：`feat` / `fix` / `docs` / `style` / `refactor` / `test` / `chore`（feat、fix 进 Change log）
 - subject 不超过 50 个字符，结尾不加句号
